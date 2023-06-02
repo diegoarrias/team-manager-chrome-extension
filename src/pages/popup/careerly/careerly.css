@@ -1,0 +1,79 @@
+.screenshot-wrapper {
+    width: 226px;
+    height: 116px;
+    border-radius: 0.25rem;
+}
+.m-bottom {
+    margin-bottom: 1rem !important;
+}
+.careerly-wrapper {
+    padding: 1rem;
+    overflow-y: hidden;
+}
+.careerly-wrapper>.careerly-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+.slider-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.slider-wrapper > .slider-label {
+    width: 105px;
+    height: 14px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    color: #4356E0;
+    margin: 0 0 0.5rem 0;
+}
+.progress-wrapper {
+    /* position: absolute; */
+    /* bottom: 16px; */
+    /* width: 87%; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: -10;
+}
+.progress-data {
+    font-weight: 500;
+}
+.save-btn {
+    width: 75%;
+    height: 40px;
+    margin-right: .75rem;
+    padding: .5rem 1rem;
+}
+.user-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: .5rem 0rem; */
+}
+.user-wrapper > p {
+    margin: 0 0 0 .5rem;
+    font-weight: 600;
+    font-size: 12px;
+}
+.name-avatar {
+    font-size: 11.25px;
+    font-weight: 500;
+    line-height: 10.54px;
+    text-align: center;
+}
+.css-1p3m7a8-multiValue {
+    background-color: #EAF0FB !important;
+    border: 1px solid #8796ff;
+}
+.css-9jq23d {
+    color: #4356E0 !important;
+}
+.css-19bb58m {
+    height: 32px !important;
+}

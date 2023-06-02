@@ -1,0 +1,120 @@
+.App {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  height: 100%;
+  padding: 1rem;
+}
+
+.App-header {
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-content>h1 {
+  font-family: 'PlusJakartaSans';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #232323;
+  margin: 1.5rem 0;
+}
+
+.label-text {
+  font-family: 'PlusJakartaSans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #232323;
+  text-align: left;
+  margin: 0 0 0.25rem 0;
+}
+
+.email-wrapper {
+  margin-bottom: 1rem;
+}
+
+.forget-password {
+  font-family: 'PlusJakartaSans';
+  margin: 0.25rem 0 0 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #D5D5D5;
+}
+
+.font-Jakarta {
+  font-family: 'PlusJakartaSans';
+}
+
+.login-btn {
+  width: 100%;
+  margin: 1.5rem 0 0.75rem 0;
+  background-color: #4356E0;
+  border-radius: 8px;
+  padding: 0.75rem 0;
+}
+
+.signup-text {
+  font-family: 'PlusJakartaSans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  cursor: pointer;
+  color: #232323;
+  margin: 0;
+}
+
+.signup-text:hover>span {
+  font-weight: 500;
+  cursor: pointer;
+  color: #041bca;
+}
+
+.signup-text>span {
+  font-weight: 500;
+  cursor: pointer;
+  color: #4356E0;
+}
+
+.google-auth-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: 'PlusJakartaSans';
+  font-size: 14px;
+  font-weight: 700;
+  color: #636366;
+  padding: 0.75rem 0;
+}
+
+.input-field {
+  min-height: 44px;
+  padding: 0.5rem 0.75rem;
+}
+
+img {
+  width: 16px;
+  height: 16px;
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,124 @@
+.signup-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.signup-wrapper>.signup-header {
+    width: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.signup-wrapper>.google-account-creation-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-wrapper>.google-account-creation-wrapper>h1 {
+    font-family: 'PlusJakartaSans';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #232323;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.signup-wrapper>.google-account-creation-wrapper>.google-auth-btn {
+    font-family: 'PlusJakartaSans';
+    font-size: 14px;
+    font-weight: 700;
+    color: #636366;
+    margin: 0;
+    padding: 0.65rem 0;
+}
+
+.divider-wrapper {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 1.5rem 0rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-divider {
+    margin-right: 0.25rem;
+}
+
+.right-divider {
+    margin-left: 0.25rem;
+}
+
+.divider-width {
+    width: 38% !important;
+}
+
+.divider-line {
+    width: 30%;
+    border-top: 1px solid rgb(194, 192, 192);
+}
+
+.divider-wrapper>span {
+    width: 118px;
+    font-family: 'PlusJakartaSans';
+    font-weight: 500;
+    color: grey;
+    margin: 0 0rem;
+}
+
+.account-creation-wrapper {
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.account-creation-wrapper>.inputs-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 1rem 0;
+}
+.input-wrapper {
+    width: 49%;
+}
+.select-wrapper {
+    width: 100% !important;
+}
+.input-wrapper>.input-label {
+    width: 100%;
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #232323;
+    text-align: left;
+    margin: 0 0 0.25rem 0;
+}
+.remove-margin-top {
+    margin-top: 0 !important;
+}
+.signup-text > span {
+    font-weight: 500;
+    cursor: pointer;
+    color: #4356E0;
+}
+.signup-text>span:hover {
+    font-weight: 500;
+    cursor: pointer;
+    color: #041bca;
+}
+.signup-text {
+    font-family: 'PlusJakartaSans';
+    color: #232323;
+    font-weight: 500;
+}
